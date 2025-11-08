@@ -42,7 +42,7 @@ class FCN(nn.Module):
 model = FCN(input=3, output=1, hidden=64, layers=4)
 
 #move model to device
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device( 'cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
 #collocation points
