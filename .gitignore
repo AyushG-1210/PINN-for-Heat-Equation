@@ -2,3 +2,4 @@
 *.pt 
 Poissons_1D.ipynb
 Exact_Heat.py
+Harmonics_1D_ODE.py
