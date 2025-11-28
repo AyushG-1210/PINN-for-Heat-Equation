@@ -1,0 +1,2 @@
+# Executive Summary
+This study investigates the application of Physics-Informed Neural Networks (PINNs) to solve the 2D Heat Equation. While the model achieved a low training loss of ~4.89x10-3, the experiment identified a critical failure mode: Temporal Error Accumulation, where the relative L2 error grew by a factor of 107 over the time domain. This report analyzes the root cause of this propagation and proposes Temporal Domain Decomposition and Adaptive Loss Weighting as a necessary structural intervention.
